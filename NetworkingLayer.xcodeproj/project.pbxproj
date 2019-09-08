@@ -17,6 +17,7 @@
 		454FD3F82324F08000DAB125 /* HTTPNetworkRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454FD3F72324F08000DAB125 /* HTTPNetworkRoutes.swift */; };
 		454FD3FA2324F12000DAB125 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454FD3F92324F12000DAB125 /* HTTPMethod.swift */; };
 		454FD3FC2324F60E00DAB125 /* HTTPNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454FD3FB2324F60E00DAB125 /* HTTPNetworkError.swift */; };
+		454FD3FE23250B5900DAB125 /* HTTPNetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454FD3FD23250B5900DAB125 /* HTTPNetworkRequest.swift */; };
 		CABF56ED726EE8F0B280E16D /* Pods_NetworkingLayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A410A6CB51C249D73C34C2 /* Pods_NetworkingLayerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		454FD3F72324F08000DAB125 /* HTTPNetworkRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPNetworkRoutes.swift; sourceTree = "<group>"; };
 		454FD3F92324F12000DAB125 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		454FD3FB2324F60E00DAB125 /* HTTPNetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPNetworkError.swift; sourceTree = "<group>"; };
+		454FD3FD23250B5900DAB125 /* HTTPNetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPNetworkRequest.swift; sourceTree = "<group>"; };
 		CCB0EA89261182818607A605 /* Pods-NetworkingLayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkingLayerTests.release.xcconfig"; path = "Target Support Files/Pods-NetworkingLayerTests/Pods-NetworkingLayerTests.release.xcconfig"; sourceTree = "<group>"; };
 		F9D497840A859B40FB65EAD3 /* Pods_NetworkingLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkingLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA974483D9484D6E5C57376F /* Pods-NetworkingLayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkingLayerTests.debug.xcconfig"; path = "Target Support Files/Pods-NetworkingLayerTests/Pods-NetworkingLayerTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -80,7 +82,6 @@
 				FA974483D9484D6E5C57376F /* Pods-NetworkingLayerTests.debug.xcconfig */,
 				CCB0EA89261182818607A605 /* Pods-NetworkingLayerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -157,6 +158,7 @@
 				454FD3F72324F08000DAB125 /* HTTPNetworkRoutes.swift */,
 				454FD3F92324F12000DAB125 /* HTTPMethod.swift */,
 				454FD3FB2324F60E00DAB125 /* HTTPNetworkError.swift */,
+				454FD3FD23250B5900DAB125 /* HTTPNetworkRequest.swift */,
 			);
 			path = HTTP;
 			sourceTree = "<group>";
@@ -324,6 +326,7 @@
 				454FD3FA2324F12000DAB125 /* HTTPMethod.swift in Sources */,
 				454FD3F82324F08000DAB125 /* HTTPNetworkRoutes.swift in Sources */,
 				454FD3D62324EAEC00DAB125 /* ViewController.swift in Sources */,
+				454FD3FE23250B5900DAB125 /* HTTPNetworkRequest.swift in Sources */,
 				454FD3D42324EAEC00DAB125 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
