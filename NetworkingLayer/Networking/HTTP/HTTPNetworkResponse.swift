@@ -6,14 +6,7 @@
 //  Copyright © 2019 Sohrab. All rights reserved.
 //
 
-import UIKit
 import  Foundation
-
-enum Result<T> {
-    
-    case success(T)
-    case failure(Error)
-}
 
 struct HTTPNetworkResponse {
     // Properly checks and handles the status code of the response

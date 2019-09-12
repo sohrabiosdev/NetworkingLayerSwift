@@ -26,6 +26,7 @@
 import UIKit
 
 public enum HTTPNetworkRoute: String {
-    case getPosts                   = "posts"
-    case getComments                = "comments"
+    case getPosts     = "posts"
+    case getComments  = "comments"
+    case getUsers     = "users"
 }

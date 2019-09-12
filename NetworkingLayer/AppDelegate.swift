@@ -6,7 +6,7 @@
 //  Copyright © 2019 Sohrab. All rights reserved.
 //
 // https://blog.usejournal.com/building-a-safe-modularized-and-well-structured-networking-layer-in-swift-4-2-de264d079ce2
-
+// https://github.com/MediBoss/Networking_Starter_Project/blob/master/Networking_Starter_Project/Models/Product.swift
 
 import UIKit
 
